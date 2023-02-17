@@ -31,7 +31,7 @@ public class SwaggerConfig {
                 "La API REST de ToDo App.",
                 "v1",
                 "Terms of service",
-                new Contact("Jordy Vega", "www.jordyvega.com", "jordyvega15@gmail.com"),
+                new Contact("Jordy Vega", "https://jordyvega.com", "jordyvega15@gmail.com"),
                 "License of API", "API license URL", Collections.emptyList());
     }
 }

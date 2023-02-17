@@ -20,7 +20,7 @@ public class TestController {
     }
 
 
-    @PostMapping("-task")
+    @PostMapping("/task")
     public Task createTask(@RequestBody TaskInDto taskInDto){
         return this.taskService.createTask(taskInDto);
     }
